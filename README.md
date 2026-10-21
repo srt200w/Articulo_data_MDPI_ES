@@ -10,13 +10,13 @@ The following graphs illustrate the behavior of the original and modified signal
 
 ### Temperature
 
-![Comparison of original temperature and temperature with noise](/datasets/graficas/grafica_temperatura.png)
+![Comparison of original temperature and temperature with noise](/datasets/graficas/grafica_temperature.png)
 
 **Figure 1.** Comparison of original temperature readings and those modified by the introduction of artificial noise.
 
 ### Humidity
 
-![Comparison of original humidity and humidity with noise](/datasets/graficas/grafica_humedad.png)
+![Comparison of original humidity and humidity with noise](/datasets/graficas/grafica_humidity.png)
 
 **Figure 2.** Behavior of relative humidity over the 1,000 readings, highlighting the introduced disturbance episodes.
 
