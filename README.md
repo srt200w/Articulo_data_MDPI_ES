@@ -1,34 +1,34 @@
-# Datasets de entrenamiento y evaluación — CNN + AG
+# Training and Evaluation Datasets — CNN + GA
 
-Se incorporaron conjuntos de datos de temperatura y humedad para el entrenamiento y evaluación de una red neuronal convolucional (CNN) optimizada mediante algoritmos genéticos (AG).
+Datasets containing temperature and humidity readings were incorporated for the training and evaluation of a convolutional neural network (CNN) optimized via genetic algorithms (GA).
 
-Los conjuntos contienen **1,000 lecturas secuenciales** de temperatura y humedad. Para evaluar el comportamiento del modelo ante perturbaciones, se introdujo ruido artificial en intervalos de 128 lecturas, generando siete episodios de anomalías.
+The datasets consist of **1,000 sequential readings** of temperature and humidity. To evaluate the model's behavior in the presence of disturbances, artificial noise was introduced at intervals of 128 readings, resulting in seven episodes of anomalies.
 
-## Visualización de los datos
+## Data Visualization
 
-Las siguientes gráficas muestran el comportamiento de las señales originales y modificadas, permitiendo identificar las variaciones introducidas durante la evaluación experimental.
+The following graphs illustrate the behavior of the original and modified signals, allowing for the identification of variations introduced during the experimental evaluation.
 
-### Temperatura
+### Temperature
 
-![Comparación de temperatura original y temperatura con ruido](/datasets/graficas/grafica_temperatura.png)
+![Comparison of original temperature and temperature with noise](/datasets/graficas/grafica_temperatura.png)
 
-**Figura 1.** Comparación de las lecturas de temperatura originales y modificadas mediante la introducción de ruido artificial.
+**Figure 1.** Comparison of original temperature readings and those modified by the introduction of artificial noise.
 
-### Humedad
+### Humidity
 
-![Comparación de humedad original y humedad con ruido](/datasets/graficas/grafica_humedad.png)
+![Comparison of original humidity and humidity with noise](/datasets/graficas/grafica_humedad.png)
 
-**Figura 2.** Comportamiento de la humedad relativa durante las 1,000 lecturas, destacando los episodios de perturbación introducidos.
+**Figure 2.** Behavior of relative humidity over the 1,000 readings, highlighting the introduced disturbance episodes.
 
-## Características del conjunto de datos
+## Dataset Characteristics
 
-| Parámetro | Valor |
+| Parameter | Value |
 |---|---|
-| Lecturas totales | 1,000 |
-| Intervalo de perturbación | 128 lecturas |
-| Episodios de ruido | 7 |
-| Lecturas modificadas | 84 |
-| Lecturas originales | 916 |
-| Variables | Temperatura y humedad |
+| Total readings | 1,000 |
+| Disturbance interval | 128 readings |
+| Noise episodes | 7 |
+| Modified readings | 84 |
+| Original readings | 916 |
+| Variables | Temperature and humidity |
 
-Estos datos permiten realizar pruebas de clasificación y detección de anomalías, así como evaluar el rendimiento del modelo CNN + AG mediante métricas de exactitud, precisión, recall y F1-score.
+These data facilitate classification and anomaly detection tasks, as well as the evaluation of the CNN + GA model's performance using metrics such as accuracy, precision, recall, and F1-score.
