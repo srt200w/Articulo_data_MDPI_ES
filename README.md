@@ -10,13 +10,13 @@ Las siguientes gráficas muestran el comportamiento de las señales originales y
 
 ### Temperatura
 
-![Comparación de temperatura original y temperatura con ruido](graficas/abril_grafica_temperatura.png)
+![Comparación de temperatura original y temperatura con ruido](/datasets/graficas/abril_grafica_temperatura.png)
 
 **Figura 1.** Comparación de las lecturas de temperatura originales y modificadas mediante la introducción de ruido artificial.
 
 ### Humedad
 
-![Comparación de humedad original y humedad con ruido](graficas/abril_grafica_humedad.png)
+![Comparación de humedad original y humedad con ruido](/datasets/graficas/grafica_humedad.png)
 
 **Figura 2.** Comportamiento de la humedad relativa durante las 1,000 lecturas, destacando los episodios de perturbación introducidos.
 
